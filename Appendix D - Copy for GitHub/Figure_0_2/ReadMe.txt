@@ -14,6 +14,6 @@ Steps to produce Figure 0.2 in Appendix D (important - must complete steps in th
 4. To generate the right panel of Figure 0.2, run the script "Period_curve_synch.m"
 	- NOTE: this script takes several minutes to run
 	- NOTE: the main figure and inset were generate separately
-		- the default code generates the inset
-		- to generate the main figure, change L25 to "delta = linspace(-0.1,0.1,21);"
+		- the default code generates the main figure
+		- to generate the inset, change L25 to "delta = linspace(-0.02,0.02,10);"
 	- output: (a) right panel of Figure 0.2 in Appendix D
